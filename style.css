@@ -21,14 +21,6 @@
    
 }
     
-body  div .icon-logo {
-display: grid;
-height: 200%;
-width: 200%;
-font-family: "Poppins", sans-serif;
-place-items: center;
-background: linear-gradient(315deg, #ffffff, #d7e1ec);
-}
 
  /* Background Landing Page */
  .landing
@@ -105,13 +97,13 @@ header h2 i,nav a i
    flex-direction: column;
    height:80vh;
    justify-content:center;
-   padding:2em;
+   padding:2.2em;
 }
 
 .tagline1
 {
    color:var(--mint);
-   font-size: 1.25em;
+   font-size: 1.5em;
    font-weight:bolder;
 
 }
@@ -119,7 +111,7 @@ header h2 i,nav a i
 .tagline2
 {
    color:var(--florescent);
-   font-size: 1.25em;
+   font-size: 1.5em;
    font-weight:bolder;
    
 }
@@ -207,6 +199,59 @@ justify-self: right;
 }
 
 
+.Locations
+{
+   padding: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   color:var(--mint);
+   font-weight:bold;
+   padding-left: 2em;
+   gap: 50px;
+   justify-content:center;
+   
+}
+
+.Locations div
+{
+   margin-top: 4%;
+}
+
+
+address
+{
+   font-family: 1em Arial, Helvetica, sans-serif;
+   margin-top: 4%;
+   flex: 1fr 1fr 1fr;
+}
+
+
+footer
+{
+   padding: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   color:var(--mint);
+   font-weight:bold;
+   padding-left: 2em;
+   gap: 50px;
+   justify-content:center;
+}
+
+
+
+body  div .icon-logo {
+   display: grid;
+   height: 200%;
+   width: 200%;
+   font-family: "Poppins", sans-serif;
+   place-items: center;
+   background: linear-gradient(315deg, #ffffff, #d7e1ec);
+   }
+
+   
 
 *{ 
   margin: 0;
