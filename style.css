@@ -11,9 +11,10 @@
     --black:#000000;
     --mint:#50f9ff;
     --florescent:#4bff3a;
-
-/* Used To Controll Entire Body Section */
  }
+
+
+ /* Used To Control Entire Body Section */
  body,h1{
     margin:0;
     padding: 0%;
