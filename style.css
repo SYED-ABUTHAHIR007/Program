@@ -350,3 +350,19 @@ body  div .icon-logo {
 
   
 }
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #05a3e7;
+  color: #ffffff;
+
+  
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #ef0808;
+  color: #ffffff;
+
+  
+}
