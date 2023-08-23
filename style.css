@@ -366,3 +366,23 @@ body  div .icon-logo {
 
   
 }
+
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background: #10ae45;
+  color: #ffffff;
+
+  
+}
+
+
+.wrapper .playstore:hover,
+.wrapper .playstore:hover .tooltip,
+.wrapper .playstore:hover .tooltip::before {
+  background: #c57103c6;
+  color: #ffffff;
+
+  
+}
