@@ -374,11 +374,11 @@ body  div .icon-logo {
 }
 
 
-.wrapper .playstore:hover,
+/* .wrapper .playstore:hover, 
 .wrapper .playstore:hover .tooltip,
 .wrapper .playstore:hover .tooltip::before {
   background: #c57103c6;
-  color: #ffffff;
+/*   color: #ffffff; */
 
   
 }
