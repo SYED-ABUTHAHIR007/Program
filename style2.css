@@ -1,1 +1,385 @@
+/* Colors Declared Using Variables Name */
+:root{ 
+    --red:#fc0202;
+    --green:#10ae45;
+    --yellow:#ffee34de;
+    --white:#FFFFFF;
+    --black:#000000;
+    --mint:#50f9ff;
+    --florescent:#4bff3a;
+ }
+
+
+ /* Used To Control Entire Body Section */
+ body,h1{
+    margin:0;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+    
+
+ /* Background Landing Page */
+ .landing
+ {
+background-image:url(1.jpg);
+background-size: 1020px 800px;
+background-position:center;
+height:100vh;
+color:var(--white);
+ }
+
+ /* Modifing The Anchor Tag Present Inside The Header Tag */
+ header a
+ {
+text-decoration:none;
+color:var(--red);
+font-weight:bolder;
+min-width: 100px;
+font-size: 1em;
+   
+
+ }
+
+ /* Controlling The Header Section */
+ header
+ {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap:1em;
+   padding: 1.25em;
+}
+
+/* Id Called Which Is Present Inside The Anchor Tag */
+ #logo
+ {
+   flex:3;
+   font-size:1.6em;
+   color:var(--yellow);
+   font-weight: bolder;
+   min-width: 300px; 
+   
+  
+}
+
+ /* Modifying The Nav Tag */
+ nav
+ {
+ flex:2; 
+ display:flex;
+ }
+
+ /* Modifying The Anchor Tag Which Is Present Inside The Nav Tag */
+nav a 
+{
+   flex:2;
+   display: flex;
+   align-items:center;
+}
+
+/* Changing The Color Of The Text At Time Of Hovering */
+nav a:hover
+{
+   color:var(--mint);
+}
+
+/* Aligning The Font's Space */
+header h2 i,nav a i 
+{
+   margin-right: .5em;
+}
+.maintext
+{
+   display:flex;
+   flex-direction: column;
+   height:80vh;
+   justify-content:center;
+   padding:2.2em;
+}
+
+.tagline1
+{
+   color:var(--mint);
+   font-size: 1.5em;
+   font-weight:bolder;
+
+}
+
+.tagline2
+{
+   color:var(--florescent);
+   font-size: 1.5em;
+   font-weight:bolder;
+   
+}
+
+
+.callus
+{
+   color:var(--pink);
+   font-size: 1em;
+   font-weight:bolder;
+   
+}
+
+.maintext div
+{
+   margin-top: .75em;
+}
+
+.maintext button
+{
+   width:27vw;
+   margin-top: 2em; 
+   border-radius: 12px;
+   padding: .75em;
+   background-color: var(--yellow);
+   color:var(--black);
+   border:2px solid var(--black);
+   
+}
+
+.menu
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   color:var(--mint);
+   font-weight:bold;
+}
+
+#menuheading,#locheading
+{
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   font-size: 2.5em;
+   color:var(--red);
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.menu th 
+{
+   color:var(--yellow);
+   font-size: 2em;
+
+}
+
+
+
+table
+{
+width:100%;
+padding:1em;
+}
+
+
+.menu tr
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 1em;
+}
+
+
+.menu td:nth-child(1)
+{
+flex:1;
+justify-self: left;
+}
+
+
+.menu td:nth-child(2)
+{
+justify-self: right;
+}
+
+
+.Locations
+{
+   padding: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   color:var(--mint);
+   font-weight:bold;
+   padding-left: 2em;
+   gap: 50px;
+   justify-content:center;
+   
+}
+
+.Locations div
+{
+   margin-top: 4%;
+}
+
+
+address
+{
+   font-family: 1em Arial, Helvetica, sans-serif;
+   margin-top: 4%;
+   flex: 1fr 1fr 1fr;
+}
+
+
+footer
+{
+   padding: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   background: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0));
+   color:var(--mint);
+   font-weight:bold;
+   padding-left: 2em;
+   gap: 50px;
+   justify-content:center;
+}
+
+
+
+body  div .icon-logo {
+   display: grid;
+   height: 200%;
+   width: 200%;
+   font-family: "Poppins", sans-serif;
+   place-items: center;
+   background: linear-gradient(315deg, #ffffff, #d7e1ec);
+   }
+
+   
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+  
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position:relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+
+  
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #05a3e7;
+  color: #ffffff;
+
+  
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #ef0808;
+  color: #ffffff;
+
+  
+}
+
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background: #10ae45;
+  color: #ffffff;
+
+  
+}
+
+
+/* .wrapper .playstore:hover, 
+.wrapper .playstore:hover .tooltip,
+.wrapper .playstore:hover .tooltip::before {
+  background: #c57103c6;
+/*   color: #ffffff; */
+
+  
+}
 
